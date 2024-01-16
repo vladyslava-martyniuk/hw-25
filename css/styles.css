@@ -1,0 +1,33 @@
+.box{
+    box-sizing: border-box;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    position: relative;
+}
+.box:nth-child(1){
+    background-color: lightcoral;
+    position: absolute;
+    left: 123px;
+    top: 50px;
+}
+.box:nth-child(2){
+    background-color: rgb(103, 78, 245);
+    top: 100px;
+    left: 170px;
+    position: absolute;
+}
+.box:nth-child(3){
+    background-color:lightgreen ;
+    top: 160px;
+    left:240px; 
+    z-index: -1;
+    position: absolute;
+}
